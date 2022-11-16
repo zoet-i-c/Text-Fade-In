@@ -1,0 +1,24 @@
+@keyframes fade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  #div1 {
+    height: 40px;
+    width: 250px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    font-size: 30px;
+    border: solid black;
+    border-width: 3px 0px 3px 0px;
+    text-align: center;
+    padding: 5px;
+  
+    animation: fade 2s ease-in-out infinite alternate;
+  }
+  
